@@ -1,7 +1,15 @@
-<% provide(:title, "Home") %>
-<h1>Sample App</h1>
-<p>
-  This is the home page for the
-  <a href="http://railstutorial.jp/">Ruby on Rails Tutorial</a>
-  sample application.
-</p>
+<div class="center jumbotron">
+  <div class="subject">
+    <h1>Ruby on Rails on Docker</h1>
+    <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-success" %>
+  </div>
+</div>
+<h2>
+  <a href="https://github.com/sunoko/Docker/tree/master/container_01" target="_blank">Git Hub</a>
+</h2>
+<div class="logo_image">
+  <%= link_to image_tag("rails.png", alt: "Rails logo"), 'http://rubyonrails.org/', { :target => "_blank" } %>
+  <%= link_to image_tag("docker.png", alt: "Docker logo"), 'https://www.docker.com/', { :target => "_blank" } %>
+  <%= link_to image_tag("postgres.png", alt: "Postgres logo"), 'https://www.postgresql.org/', { :target => "_blank" } %>
+  <%= link_to image_tag("ubuntu.png", alt: "Ubuntu logo"), 'https://www.ubuntu.com/', { :target => "_blank" } %>
+</div>
