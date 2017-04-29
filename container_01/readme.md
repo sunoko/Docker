@@ -1,6 +1,6 @@
 # README
 
-## Rails on Docker 
+## Ruby on Rails on Docker on Ubuntu along with Postgres
 
 * Ruby version
 

@@ -1300,3 +1300,19 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 5350ms (Views: 5285.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 172.18.0.1 at 2017-04-29 06:17:15 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (51.8ms)
+Completed 200 OK in 380ms (Views: 352.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.18.0.1 at 2017-04-29 06:18:33 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (61.9ms)
+Completed 200 OK in 423ms (Views: 392.0ms | ActiveRecord: 0.0ms)
+
+
