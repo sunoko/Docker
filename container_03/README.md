@@ -15,11 +15,11 @@ docker-compose version 1.11.2, build dfed245
 # Host OS上で
 docker-compose up -d
 # aravel_app_1に入る
-docker exec -it laravel_app_1 bash
+docker exec -it container03_app_1 bash
 ```
 ```
-# laravel_app_1上で
-#sunoko_user(web.dockerで作ったユーザー)になってlaravelプロジェクト作成
+# container03_app_1上で
+#sunoko_user(app.dockerで作ったユーザー)になってlaravelプロジェクト作成
 chown -R sunoko_user:sunoko_user /var/www
 su sunoko_user
 composer create-project --prefer-dist laravel/laravel laravel

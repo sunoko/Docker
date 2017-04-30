@@ -1,6 +1,6 @@
 FROM nginx:1.11
 
-RUN useradd -m -s /bin/bash -u 1000 sunoko_user && \
+RUN useradd -m -s /bin/bash -u 2000 sunoko_user && \
 #nginx.conf
 sed -i 's/user\ \ nginx\;/user\ \ sunoko_user\;/g' /etc/nginx/nginx.conf
 
