@@ -1,8 +1,8 @@
 FROM nginx:1.11
 
-RUN useradd -m -s /bin/bash -u 1000 meidaimae && \
+RUN useradd -m -s /bin/bash -u 1000 sunoko_user && \
 #nginx.conf
-sed -i 's/user\ \ nginx\;/user\ \ meidaimae\;/g' /etc/nginx/nginx.conf
+sed -i 's/user\ \ nginx\;/user\ \ sunoko_user\;/g' /etc/nginx/nginx.conf
 
 ADD ./vhost.conf /etc/nginx/conf.d/default.conf
 WORKDIR /var/www
