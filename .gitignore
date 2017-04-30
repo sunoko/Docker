@@ -4,3 +4,6 @@
 /container_03/mysql/
 /container_03/redis/
 /container_03/www/
+/container_05/tmp/
+/container_05/vender/
+/container_05/log/
